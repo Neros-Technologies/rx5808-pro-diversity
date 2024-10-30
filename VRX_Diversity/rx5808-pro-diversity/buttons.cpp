@@ -89,9 +89,7 @@ namespace Buttons {
 
         state.lastReading = reading;
 
-        if (
-            reading != state.pressed &&
-            (millis() - state.lastDebounceTime) >= BUTTON_DEBOUNCE_DELAY
+        if (reading != state.pressed &&     (millis() - state.lastDebounceTime) >= BUTTON_DEBOUNCE_DELAY
         ) {
             state.pressed = reading;
 

@@ -70,7 +70,7 @@ SOFTWARE.
 //
 // =============================================================================
 
-#define USE_DIVERSITY
+//#define USE_DIVERSITY
 
 // Enable this to switch receivers much faster. This uses the port registers
 // to switch rather than the Arduino helper functions.
@@ -83,7 +83,7 @@ SOFTWARE.
 // PORTC: Pins A0-A7
 // PORTD: 0-7
 // PORTB: 8-13
-#define USE_DIVERSITY_FAST_SWITCHING
+//#define USE_DIVERSITY_FAST_SWITCHING
 
 //#define USE_IR_EMITTER
 //#define USE_SERIAL_OUT // Not compatible with IR emitter.
@@ -102,7 +102,7 @@ SOFTWARE.
 //     5584 MHz
 //     5621 MHz
 // Local laws may prohibit the use of these frequencies so use at your own risk!
-#define USE_LBAND
+//#define USE_LBAND
 
 // === Pins ====================================================================
 
@@ -117,9 +117,9 @@ SOFTWARE.
 #define PIN_LED 13
 #define PIN_BUZZER 6 // Must be an active buzzer, not passive.
 
-#define PIN_SPI_DATA 10
-#define PIN_SPI_SLAVE_SELECT 11
-#define PIN_SPI_CLOCK 12
+#define PIN_SPI_DATA 11 //10
+#define PIN_SPI_SLAVE_SELECT 12//11
+#define PIN_SPI_CLOCK 13 // 12
 
 #define PIN_RSSI_A A6
 #define PIN_LED_A A0
@@ -205,7 +205,7 @@ SOFTWARE.
 // Shorter values will make it more reactive, but may lead to double trigger.
 #define BUTTON_DEBOUNCE_DELAY 100
 
-#define SCREENSAVER_TIMEOUT 30 // Seconds to wait before entering screensaver
+#define SCREENSAVER_TIMEOUT 3000 // Seconds to wait before entering screensaver
 #define SCREENSAVER_DISPLAY_CYCLE 3 // Seconds between switching logo/channel
 
 // Time needed to hold mode to get to menu
