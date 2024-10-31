@@ -70,7 +70,7 @@ SOFTWARE.
 //
 // =============================================================================
 
-//#define USE_DIVERSITY
+#define USE_DIVERSITY
 
 // Enable this to switch receivers much faster. This uses the port registers
 // to switch rather than the Arduino helper functions.
@@ -83,7 +83,7 @@ SOFTWARE.
 // PORTC: Pins A0-A7
 // PORTD: 0-7
 // PORTB: 8-13
-//#define USE_DIVERSITY_FAST_SWITCHING
+#define USE_DIVERSITY_FAST_SWITCHING
 
 //#define USE_IR_EMITTER
 //#define USE_SERIAL_OUT // Not compatible with IR emitter.
