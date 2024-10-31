@@ -1,5 +1,7 @@
 ﻿/*Begining of Auto generated code by Atmel studio */
+//#define F_CPU 16000000UL
 #include <Arduino.h>
+//#define F_CPU 16000000UL
 
 /*End of auto generated code by Atmel studio */
 
@@ -101,6 +103,7 @@ void setup()
 }
 
 void setupPins() {
+	delay(1000); // Delay to allow LCD to boot.
     pinMode(PIN_LED, OUTPUT);
     pinMode(PIN_BUZZER, OUTPUT);
     pinMode(PIN_BUTTON_UP, INPUT_PULLUP);
@@ -129,6 +132,7 @@ void setupPins() {
 
 void setupSettings() {
     EepromSettings.load();
+	EepromSettings.startChannel = 4 * 8; // R1 5658
     Receiver::setChannel(EepromSettings.startChannel);
 }
 
@@ -136,15 +140,7 @@ static Button localButton = Button::COUNT;
 static Button localButtonOld = Button::COUNT;
 void loop() {
 
-//	Serial.print(1);
-	//Serial.print("\r\n");
-	//if( localButtonOld != localButton)
-	//{
-		//Serial.print(int(localButton));
-		//Serial.print("\r\n");
-		//
-		//localButtonOld = localButton;
-	//}
+
     Receiver::update();
     Buttons::update();
 

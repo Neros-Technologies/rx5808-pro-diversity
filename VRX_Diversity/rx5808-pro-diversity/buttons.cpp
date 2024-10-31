@@ -92,7 +92,16 @@ namespace Buttons {
         if (reading != state.pressed &&     (millis() - state.lastDebounceTime) >= BUTTON_DEBOUNCE_DELAY
         ) {
             state.pressed = reading;
+      
+			if( state.pressed)
+			{
+				runChangeFuncs(button, PressType::SHORT);
+				digitalWrite(PIN_LED,HIGH);
+				delay(200);
+				digitalWrite(PIN_LED,LOW);
 
+			}
+      
             uint32_t prevChangeTime = state.changeTime;
             state.changeTime = millis();
             lastChangeTime = state.changeTime;
@@ -109,7 +118,7 @@ namespace Buttons {
 
         if (state.pressed) {
             uint32_t duration = millis() - state.changeTime;
-
+		//digitalWrite(PIN_LED,LOW);
             if (duration >= 2000)
                 runChangeFuncs(button, PressType::HOLDING);
         }

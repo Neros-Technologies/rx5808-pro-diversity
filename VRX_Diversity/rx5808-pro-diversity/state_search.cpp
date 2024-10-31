@@ -183,11 +183,10 @@ void SearchStateHandler::onButtonChange(
         forceNext = true;
         direction = button == Button::UP ?
             ScanDirection::UP : ScanDirection::DOWN;
-    } else {
-        if (
-            pressType != Buttons::PressType::SHORT &&
-            pressType != Buttons::PressType::HOLDING
-        ) {
+    } else 
+	{
+        if (pressType != Buttons::PressType::SHORT && pressType != Buttons::PressType::HOLDING        ) 
+		{
             return;
         }
 
