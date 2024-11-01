@@ -1127,7 +1127,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x6712
+.text           0x00000000     0x670a
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -1323,644 +1323,644 @@ END GROUP
  .text._ZN7ButtonsL14runChangeFuncsE6ButtonNS_9PressTypeE
                 0x0000132a       0x30 buttons.o
  .text._ZN7ButtonsL12updateButtonE6ButtonRNS_11ButtonStateEh
-                0x0000135a      0x14c buttons.o
+                0x0000135a      0x144 buttons.o
  .text._ZN7Buttons6updateEv
-                0x000014a6       0x30 buttons.o
-                0x000014a6                _ZN7Buttons6updateEv
+                0x0000149e       0x30 buttons.o
+                0x0000149e                _ZN7Buttons6updateEv
  .text._ZN7Buttons18registerChangeFuncEPFv6ButtonNS_9PressTypeEE
-                0x000014d6       0x2c buttons.o
-                0x000014d6                _ZN7Buttons18registerChangeFuncEPFv6ButtonNS_9PressTypeEE
+                0x000014ce       0x2c buttons.o
+                0x000014ce                _ZN7Buttons18registerChangeFuncEPFv6ButtonNS_9PressTypeEE
  .text._ZN8Channels17getSynthRegisterBEh
-                0x00001502       0x12 channels.o
-                0x00001502                _ZN8Channels17getSynthRegisterBEh
+                0x000014fa       0x12 channels.o
+                0x000014fa                _ZN8Channels17getSynthRegisterBEh
  .text._ZN8Channels12getFrequencyEh
-                0x00001514       0x12 channels.o
-                0x00001514                _ZN8Channels12getFrequencyEh
+                0x0000150c       0x12 channels.o
+                0x0000150c                _ZN8Channels12getFrequencyEh
  .text._ZN8Channels7getNameEh
-                0x00001526       0x2e channels.o
-                0x00001526                _ZN8Channels7getNameEh
+                0x0000151e       0x2e channels.o
+                0x0000151e                _ZN8Channels7getNameEh
  .text._ZN8Channels15getOrderedIndexEh
-                0x00001554        0xc channels.o
-                0x00001554                _ZN8Channels15getOrderedIndexEh
+                0x0000154c        0xc channels.o
+                0x0000154c                _ZN8Channels15getOrderedIndexEh
  .text._ZN8Channels24getOrderedIndexFromIndexEh
-                0x00001560        0xc channels.o
-                0x00001560                _ZN8Channels24getOrderedIndexFromIndexEh
+                0x00001558        0xc channels.o
+                0x00001558                _ZN8Channels24getOrderedIndexFromIndexEh
  .text._Z14PSTRtoBuffer_PPKc
-                0x0000156c       0x32 pstr_helper.o
-                0x0000156c                _Z14PSTRtoBuffer_PPKc
+                0x00001564       0x32 pstr_helper.o
+                0x00001564                _Z14PSTRtoBuffer_PPKc
  .text._ZN8Receiver10setChannelEh
-                0x0000159e       0x1c receiver.o
-                0x0000159e                _ZN8Receiver10setChannelEh
+                0x00001596       0x1c receiver.o
+                0x00001596                _ZN8Receiver10setChannelEh
  .text._ZN8Receiver17setActiveReceiverENS_10ReceiverIdE
-                0x000015ba       0x4c receiver.o
-                0x000015ba                _ZN8Receiver17setActiveReceiverENS_10ReceiverIdE
+                0x000015b2       0x4c receiver.o
+                0x000015b2                _ZN8Receiver17setActiveReceiverENS_10ReceiverIdE
  .text._ZN8Receiver12isRssiStableEv
-                0x00001606        0x8 receiver.o
-                0x00001606                _ZN8Receiver12isRssiStableEv
+                0x000015fe        0x8 receiver.o
+                0x000015fe                _ZN8Receiver12isRssiStableEv
  .text._ZN8Receiver10updateRssiEv
-                0x0000160e      0x222 receiver.o
-                0x0000160e                _ZN8Receiver10updateRssiEv
+                0x00001606      0x222 receiver.o
+                0x00001606                _ZN8Receiver10updateRssiEv
  .text._ZN8Receiver15switchDiversityEv
-                0x00001830       0x7e receiver.o
-                0x00001830                _ZN8Receiver15switchDiversityEv
+                0x00001828       0x7e receiver.o
+                0x00001828                _ZN8Receiver15switchDiversityEv
  .text._ZN8Receiver5setupEv
-                0x000018ae        0x2 receiver.o
-                0x000018ae                _ZN8Receiver5setupEv
+                0x000018a6        0x2 receiver.o
+                0x000018a6                _ZN8Receiver5setupEv
  .text._ZN8Receiver6updateEv
-                0x000018b0       0x16 receiver.o
-                0x000018b0                _ZN8Receiver6updateEv
+                0x000018a8       0x16 receiver.o
+                0x000018a8                _ZN8Receiver6updateEv
  .text.startup._GLOBAL__sub_I__ZN8Receiver14activeReceiverE
-                0x000018c6       0x2c receiver.o
+                0x000018be       0x2c receiver.o
  .text._ZL7sendBith
-                0x000018f2       0x46 receiver_spi.o
+                0x000018ea       0x46 receiver_spi.o
  .text._ZL12sendRegisterhm
-                0x00001938       0x92 receiver_spi.o
+                0x00001930       0x92 receiver_spi.o
  .text._ZN11ReceiverSpi17setSynthRegisterBEj
-                0x000019ca        0xc receiver_spi.o
-                0x000019ca                _ZN11ReceiverSpi17setSynthRegisterBEj
+                0x000019c2        0xc receiver_spi.o
+                0x000019c2                _ZN11ReceiverSpi17setSynthRegisterBEj
  .text._ZN14EepromSettings4saveEv
-                0x000019d6       0x3c settings_eeprom.o
-                0x000019d6                _ZN14EepromSettings4saveEv
+                0x000019ce       0x3c settings_eeprom.o
+                0x000019ce                _ZN14EepromSettings4saveEv
  .text._ZN14EepromSettings6updateEv
-                0x00001a12       0x36 settings_eeprom.o
-                0x00001a12                _ZN14EepromSettings6updateEv
+                0x00001a0a       0x36 settings_eeprom.o
+                0x00001a0a                _ZN14EepromSettings6updateEv
  .text._ZN14EepromSettings9markDirtyEv
-                0x00001a48        0x8 settings_eeprom.o
-                0x00001a48                _ZN14EepromSettings9markDirtyEv
+                0x00001a40        0x8 settings_eeprom.o
+                0x00001a40                _ZN14EepromSettings9markDirtyEv
  .text._ZN14EepromSettings12initDefaultsEv
-                0x00001a50       0x1c settings_eeprom.o
-                0x00001a50                _ZN14EepromSettings12initDefaultsEv
+                0x00001a48       0x1c settings_eeprom.o
+                0x00001a48                _ZN14EepromSettings12initDefaultsEv
  .text._ZN14EepromSettings4loadEv
-                0x00001a6c       0x5a settings_eeprom.o
-                0x00001a6c                _ZN14EepromSettings4loadEv
+                0x00001a64       0x5a settings_eeprom.o
+                0x00001a64                _ZN14EepromSettings4loadEv
  .text.startup._GLOBAL__sub_I_EepromSettings
-                0x00001ac6        0xc settings_eeprom.o
+                0x00001abe        0xc settings_eeprom.o
  .text._ZL23globalMenuButtonHandler6ButtonN7Buttons9PressTypeE
-                0x00001ad2       0x18 Sketch.o
+                0x00001aca       0x18 Sketch.o
  .text._Z9setupPinsv
-                0x00001aea       0x8c Sketch.o
-                0x00001aea                _Z9setupPinsv
+                0x00001ae2       0x8c Sketch.o
+                0x00001ae2                _Z9setupPinsv
  .text._Z13setupSettingsv
-                0x00001b76       0x12 Sketch.o
-                0x00001b76                _Z13setupSettingsv
- .text.setup    0x00001b88       0x48 Sketch.o
-                0x00001b88                setup
- .text.loop     0x00001bd0       0x60 Sketch.o
-                0x00001bd0                loop
+                0x00001b6e       0x12 Sketch.o
+                0x00001b6e                _Z13setupSettingsv
+ .text.setup    0x00001b80       0x48 Sketch.o
+                0x00001b80                setup
+ .text.loop     0x00001bc8       0x60 Sketch.o
+                0x00001bc8                loop
  .text._ZN12StateMachine12StateHandler8onUpdateEv
-                0x00001c30        0x2 state.o
-                0x00001c30                _ZN12StateMachine12StateHandler8onUpdateEv
+                0x00001c28        0x2 state.o
+                0x00001c28                _ZN12StateMachine12StateHandler8onUpdateEv
  .text._ZN12StateMachine12StateHandler6onExitEv
-                0x00001c32        0x2 state.o
-                0x00001c32                _ZN12StateMachine12StateHandler6onExitEv
+                0x00001c2a        0x2 state.o
+                0x00001c2a                _ZN12StateMachine12StateHandler6onExitEv
  .text._ZN12StateMachine12StateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
-                0x00001c34        0x2 state.o
-                0x00001c34                _ZN12StateMachine12StateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
+                0x00001c2c        0x2 state.o
+                0x00001c2c                _ZN12StateMachine12StateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
  .text._ZN12StateMachineL14onButtonChangeE6ButtonN7Buttons9PressTypeE
-                0x00001c36       0x22 state.o
+                0x00001c2e       0x22 state.o
  .text._ZN12StateMachine5setupEv
-                0x00001c58        0x8 state.o
-                0x00001c58                _ZN12StateMachine5setupEv
+                0x00001c50        0x8 state.o
+                0x00001c50                _ZN12StateMachine5setupEv
  .text._ZN12StateMachine6updateEv
-                0x00001c60       0x9e state.o
-                0x00001c60                _ZN12StateMachine6updateEv
+                0x00001c58       0x9e state.o
+                0x00001c58                _ZN12StateMachine6updateEv
  .text._ZN12StateMachine11switchStateENS_5StateE
-                0x00001cfe      0x1a4 state.o
-                0x00001cfe                _ZN12StateMachine11switchStateENS_5StateE
+                0x00001cf6      0x1a4 state.o
+                0x00001cf6                _ZN12StateMachine11switchStateENS_5StateE
  .text.startup._GLOBAL__sub_I__ZN12StateMachine12currentStateE
-                0x00001ea2        0xa state.o
+                0x00001e9a        0xa state.o
  .text._ZN12StateMachine20BandScanStateHandler7onEnterEv
-                0x00001eac        0xc state_bandscan.o
-                0x00001eac                _ZN12StateMachine20BandScanStateHandler7onEnterEv
+                0x00001ea4        0xc state_bandscan.o
+                0x00001ea4                _ZN12StateMachine20BandScanStateHandler7onEnterEv
  .text._ZN12StateMachine20BandScanStateHandler6onExitEv
-                0x00001eb8        0x8 state_bandscan.o
-                0x00001eb8                _ZN12StateMachine20BandScanStateHandler6onExitEv
+                0x00001eb0        0x8 state_bandscan.o
+                0x00001eb0                _ZN12StateMachine20BandScanStateHandler6onExitEv
  .text._ZN12StateMachine20BandScanStateHandler8onUpdateEv
-                0x00001ec0       0x4e state_bandscan.o
-                0x00001ec0                _ZN12StateMachine20BandScanStateHandler8onUpdateEv
+                0x00001eb8       0x4e state_bandscan.o
+                0x00001eb8                _ZN12StateMachine20BandScanStateHandler8onUpdateEv
  .text._ZN12StateMachine20BandScanStateHandler13onInitialDrawEv
-                0x00001f0e       0xf2 state_bandscan.o
-                0x00001f0e                _ZN12StateMachine20BandScanStateHandler13onInitialDrawEv
+                0x00001f06       0xf2 state_bandscan.o
+                0x00001f06                _ZN12StateMachine20BandScanStateHandler13onInitialDrawEv
  .text._ZN12StateMachine20BandScanStateHandler12onUpdateDrawEv
-                0x00002000       0x96 state_bandscan.o
-                0x00002000                _ZN12StateMachine20BandScanStateHandler12onUpdateDrawEv
+                0x00001ff8       0x96 state_bandscan.o
+                0x00001ff8                _ZN12StateMachine20BandScanStateHandler12onUpdateDrawEv
  .text._ZN12StateMachine16MenuStateHandler7onEnterEv
-                0x00002096       0x48 state_menu.o
-                0x00002096                _ZN12StateMachine16MenuStateHandler7onEnterEv
+                0x0000208e       0x48 state_menu.o
+                0x0000208e                _ZN12StateMachine16MenuStateHandler7onEnterEv
  .text._ZL19settingsMenuHandlerv
-                0x000020de        0x6 state_menu.o
+                0x000020d6        0x6 state_menu.o
  .text._ZL22bandScannerMenuHandlerv
-                0x000020e4        0x6 state_menu.o
+                0x000020dc        0x6 state_menu.o
  .text._ZL17searchMenuHandlerv
-                0x000020ea        0x6 state_menu.o
+                0x000020e2        0x6 state_menu.o
  .text._ZN12StateMachine16MenuStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
-                0x000020f0       0x2a state_menu.o
-                0x000020f0                _ZN12StateMachine16MenuStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
+                0x000020e8       0x2a state_menu.o
+                0x000020e8                _ZN12StateMachine16MenuStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
  .text._ZN12StateMachine16MenuStateHandler13drawMenuEntryEv
-                0x0000211a       0xd0 state_menu_ui.o
-                0x0000211a                _ZN12StateMachine16MenuStateHandler13drawMenuEntryEv
+                0x00002112       0xd0 state_menu_ui.o
+                0x00002112                _ZN12StateMachine16MenuStateHandler13drawMenuEntryEv
  .text._ZN12StateMachine16MenuStateHandler13onInitialDrawEv
-                0x000021ea       0x80 state_menu_ui.o
-                0x000021ea                _ZN12StateMachine16MenuStateHandler13onInitialDrawEv
+                0x000021e2       0x80 state_menu_ui.o
+                0x000021e2                _ZN12StateMachine16MenuStateHandler13onInitialDrawEv
  .text._ZN12StateMachine16MenuStateHandler12onUpdateDrawEv
-                0x0000226a       0x28 state_menu_ui.o
-                0x0000226a                _ZN12StateMachine16MenuStateHandler12onUpdateDrawEv
+                0x00002262       0x28 state_menu_ui.o
+                0x00002262                _ZN12StateMachine16MenuStateHandler12onUpdateDrawEv
  .text._ZN12StateMachine23ScreensaverStateHandler7onEnterEv
-                0x00002292        0x8 state_screensaver.o
-                0x00002292                _ZN12StateMachine23ScreensaverStateHandler7onEnterEv
+                0x0000228a        0x8 state_screensaver.o
+                0x0000228a                _ZN12StateMachine23ScreensaverStateHandler7onEnterEv
  .text._ZN12StateMachine23ScreensaverStateHandler12onUpdateDrawEv
-                0x0000229a        0xe state_screensaver.o
-                0x0000229a                _ZN12StateMachine23ScreensaverStateHandler12onUpdateDrawEv
+                0x00002292        0xe state_screensaver.o
+                0x00002292                _ZN12StateMachine23ScreensaverStateHandler12onUpdateDrawEv
  .text._ZN12StateMachine23ScreensaverStateHandler8onUpdateEv
-                0x000022a8       0x3e state_screensaver.o
-                0x000022a8                _ZN12StateMachine23ScreensaverStateHandler8onUpdateEv
+                0x000022a0       0x3e state_screensaver.o
+                0x000022a0                _ZN12StateMachine23ScreensaverStateHandler8onUpdateEv
  .text._ZN12StateMachine23ScreensaverStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
-                0x000022e6        0x8 state_screensaver.o
-                0x000022e6                _ZN12StateMachine23ScreensaverStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
+                0x000022de        0x8 state_screensaver.o
+                0x000022de                _ZN12StateMachine23ScreensaverStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
  .text._ZN12StateMachine23ScreensaverStateHandler13onInitialDrawEv
-                0x000022ee       0xd6 state_screensaver.o
-                0x000022ee                _ZN12StateMachine23ScreensaverStateHandler13onInitialDrawEv
+                0x000022e6       0xd6 state_screensaver.o
+                0x000022e6                _ZN12StateMachine23ScreensaverStateHandler13onInitialDrawEv
  .text._ZL12menuModeIconPv
-                0x000023c4       0x14 state_search.o
+                0x000023bc       0x14 state_search.o
  .text._ZL13menuOrderIconPv
-                0x000023d8       0x1c state_search.o
+                0x000023d0       0x1c state_search.o
  .text._ZL16menuOrderHandlerPv
-                0x000023f4       0x3c state_search.o
+                0x000023ec       0x3c state_search.o
  .text._ZL15menuModeHandlerPv
-                0x00002430       0x16 state_search.o
+                0x00002428       0x16 state_search.o
  .text._ZN12StateMachine18SearchStateHandler7onEnterEv
-                0x00002446       0x66 state_search.o
-                0x00002446                _ZN12StateMachine18SearchStateHandler7onEnterEv
+                0x0000243e       0x66 state_search.o
+                0x0000243e                _ZN12StateMachine18SearchStateHandler7onEnterEv
  .text._ZN12StateMachine18SearchStateHandler12onUpdateAutoEv
-                0x000024ac       0xd0 state_search.o
-                0x000024ac                _ZN12StateMachine18SearchStateHandler12onUpdateAutoEv
+                0x000024a4       0xd0 state_search.o
+                0x000024a4                _ZN12StateMachine18SearchStateHandler12onUpdateAutoEv
  .text._ZN12StateMachine18SearchStateHandler8onUpdateEv
-                0x0000257c       0x10 state_search.o
-                0x0000257c                _ZN12StateMachine18SearchStateHandler8onUpdateEv
+                0x00002574       0x10 state_search.o
+                0x00002574                _ZN12StateMachine18SearchStateHandler8onUpdateEv
  .text._ZN12StateMachine18SearchStateHandler10setChannelEv
-                0x0000258c       0x2a state_search.o
-                0x0000258c                _ZN12StateMachine18SearchStateHandler10setChannelEv
+                0x00002584       0x2a state_search.o
+                0x00002584                _ZN12StateMachine18SearchStateHandler10setChannelEv
  .text._ZN12StateMachine18SearchStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
-                0x000025b6       0x7a state_search.o
-                0x000025b6                _ZN12StateMachine18SearchStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
+                0x000025ae       0x7a state_search.o
+                0x000025ae                _ZN12StateMachine18SearchStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
  .text._ZN12StateMachine18SearchStateHandler11drawBordersEv
-                0x00002630       0x50 state_search_ui.o
-                0x00002630                _ZN12StateMachine18SearchStateHandler11drawBordersEv
+                0x00002628       0x50 state_search_ui.o
+                0x00002628                _ZN12StateMachine18SearchStateHandler11drawBordersEv
  .text._ZN12StateMachine18SearchStateHandler15drawChannelTextEv
-                0x00002680       0x34 state_search_ui.o
-                0x00002680                _ZN12StateMachine18SearchStateHandler15drawChannelTextEv
+                0x00002678       0x34 state_search_ui.o
+                0x00002678                _ZN12StateMachine18SearchStateHandler15drawChannelTextEv
  .text._ZN12StateMachine18SearchStateHandler17drawFrequencyTextEv
-                0x000026b4       0x40 state_search_ui.o
-                0x000026b4                _ZN12StateMachine18SearchStateHandler17drawFrequencyTextEv
+                0x000026ac       0x40 state_search_ui.o
+                0x000026ac                _ZN12StateMachine18SearchStateHandler17drawFrequencyTextEv
  .text._ZN12StateMachine18SearchStateHandler13drawRssiGraphEv
-                0x000026f4       0xaa state_search_ui.o
-                0x000026f4                _ZN12StateMachine18SearchStateHandler13drawRssiGraphEv
+                0x000026ec       0xaa state_search_ui.o
+                0x000026ec                _ZN12StateMachine18SearchStateHandler13drawRssiGraphEv
  .text._ZN12StateMachine18SearchStateHandler11drawScanBarEv
-                0x0000279e       0x44 state_search_ui.o
-                0x0000279e                _ZN12StateMachine18SearchStateHandler11drawScanBarEv
+                0x00002796       0x44 state_search_ui.o
+                0x00002796                _ZN12StateMachine18SearchStateHandler11drawScanBarEv
  .text._ZN12StateMachine18SearchStateHandler13onInitialDrawEv
-                0x000027e2       0x30 state_search_ui.o
-                0x000027e2                _ZN12StateMachine18SearchStateHandler13onInitialDrawEv
+                0x000027da       0x30 state_search_ui.o
+                0x000027da                _ZN12StateMachine18SearchStateHandler13onInitialDrawEv
  .text._ZN12StateMachine18SearchStateHandler12onUpdateDrawEv
-                0x00002812       0x6a state_search_ui.o
-                0x00002812                _ZN12StateMachine18SearchStateHandler12onUpdateDrawEv
+                0x0000280a       0x6a state_search_ui.o
+                0x0000280a                _ZN12StateMachine18SearchStateHandler12onUpdateDrawEv
  .text._ZN12StateMachine20SettingsStateHandler12onUpdateDrawEv
-                0x0000287c        0x2 state_settings.o
-                0x0000287c                _ZN12StateMachine20SettingsStateHandler8onUpdateEv
-                0x0000287c                _ZN12StateMachine20SettingsStateHandler7onEnterEv
-                0x0000287c                _ZN12StateMachine20SettingsStateHandler6onExitEv
-                0x0000287c                _ZN12StateMachine20SettingsStateHandler12onUpdateDrawEv
+                0x00002874        0x2 state_settings.o
+                0x00002874                _ZN12StateMachine20SettingsStateHandler8onUpdateEv
+                0x00002874                _ZN12StateMachine20SettingsStateHandler7onEnterEv
+                0x00002874                _ZN12StateMachine20SettingsStateHandler6onExitEv
+                0x00002874                _ZN12StateMachine20SettingsStateHandler12onUpdateDrawEv
  .text._ZN12StateMachine20SettingsStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
-                0x0000287e        0xc state_settings.o
-                0x0000287e                _ZN12StateMachine20SettingsStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
+                0x00002876        0xc state_settings.o
+                0x00002876                _ZN12StateMachine20SettingsStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
  .text._ZN12StateMachine20SettingsStateHandler13onInitialDrawEv
-                0x0000288a       0x30 state_settings.o
-                0x0000288a                _ZN12StateMachine20SettingsStateHandler13onInitialDrawEv
+                0x00002882       0x30 state_settings.o
+                0x00002882                _ZN12StateMachine20SettingsStateHandler13onInitialDrawEv
  .text._ZN12StateMachine24SettingsRssiStateHandler7onEnterEv
-                0x000028ba        0x6 state_settings_rssi.o
-                0x000028ba                _ZN12StateMachine24SettingsRssiStateHandler7onEnterEv
+                0x000028b2        0x6 state_settings_rssi.o
+                0x000028b2                _ZN12StateMachine24SettingsRssiStateHandler7onEnterEv
  .text._ZN12StateMachine24SettingsRssiStateHandler13onInitialDrawEv
-                0x000028c0        0x4 state_settings_rssi.o
-                0x000028c0                _ZN12StateMachine24SettingsRssiStateHandler13onInitialDrawEv
+                0x000028b8        0x4 state_settings_rssi.o
+                0x000028b8                _ZN12StateMachine24SettingsRssiStateHandler13onInitialDrawEv
  .text._ZN12StateMachine24SettingsRssiStateHandler12onUpdateDrawEv
-                0x000028c4      0x26e state_settings_rssi.o
-                0x000028c4                _ZN12StateMachine24SettingsRssiStateHandler12onUpdateDrawEv
+                0x000028bc      0x26e state_settings_rssi.o
+                0x000028bc                _ZN12StateMachine24SettingsRssiStateHandler12onUpdateDrawEv
  .text._ZN12StateMachine24SettingsRssiStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
-                0x00002b32       0x6c state_settings_rssi.o
-                0x00002b32                _ZN12StateMachine24SettingsRssiStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
+                0x00002b2a       0x6c state_settings_rssi.o
+                0x00002b2a                _ZN12StateMachine24SettingsRssiStateHandler14onButtonChangeE6ButtonN7Buttons9PressTypeE
  .text._ZN12StateMachine24SettingsRssiStateHandler8onUpdateEv
-                0x00002b9e       0xdc state_settings_rssi.o
-                0x00002b9e                _ZN12StateMachine24SettingsRssiStateHandler8onUpdateEv
+                0x00002b96       0xdc state_settings_rssi.o
+                0x00002b96                _ZN12StateMachine24SettingsRssiStateHandler8onUpdateEv
  .text._ZN5TimerC2Ej
-                0x00002c7a       0x2e timer.o
-                0x00002c7a                _ZN5TimerC1Ej
-                0x00002c7a                _ZN5TimerC2Ej
+                0x00002c72       0x2e timer.o
+                0x00002c72                _ZN5TimerC1Ej
+                0x00002c72                _ZN5TimerC2Ej
  .text._ZN5Timer9hasTickedEv
-                0x00002ca8       0x3e timer.o
-                0x00002ca8                _ZN5Timer9hasTickedEv
+                0x00002ca0       0x3e timer.o
+                0x00002ca0                _ZN5Timer9hasTickedEv
  .text._ZN5Timer5resetEv
-                0x00002ce6       0x2a timer.o
-                0x00002ce6                _ZN5Timer5resetEv
+                0x00002cde       0x2a timer.o
+                0x00002cde                _ZN5Timer5resetEv
  .text._ZN2Ui5setupEv
-                0x00002d10       0x4a ui.o
-                0x00002d10                _ZN2Ui5setupEv
+                0x00002d08       0x4a ui.o
+                0x00002d08                _ZN2Ui5setupEv
  .text._ZN2Ui6updateEv
-                0x00002d5a       0x16 ui.o
-                0x00002d5a                _ZN2Ui6updateEv
+                0x00002d52       0x16 ui.o
+                0x00002d52                _ZN2Ui6updateEv
  .text._ZN2Ui5clearEv
-                0x00002d70        0x8 ui.o
-                0x00002d70                _ZN2Ui5clearEv
+                0x00002d68        0x8 ui.o
+                0x00002d68                _ZN2Ui5clearEv
  .text._ZN2Ui10needUpdateEv
-                0x00002d78        0x8 ui.o
-                0x00002d78                _ZN2Ui10needUpdateEv
+                0x00002d70        0x8 ui.o
+                0x00002d70                _ZN2Ui10needUpdateEv
  .text._ZN2Ui11needDisplayEv
-                0x00002d80        0x8 ui.o
-                0x00002d80                _ZN2Ui11needDisplayEv
+                0x00002d78        0x8 ui.o
+                0x00002d78                _ZN2Ui11needDisplayEv
  .text._ZN2Ui14needFullRedrawEv
-                0x00002d88        0x8 ui.o
-                0x00002d88                _ZN2Ui14needFullRedrawEv
+                0x00002d80        0x8 ui.o
+                0x00002d80                _ZN2Ui14needFullRedrawEv
  .text.startup._GLOBAL__sub_I__ZN2Ui7displayE
-                0x00002d90        0xa ui.o
+                0x00002d88        0xa ui.o
  .text.exit._GLOBAL__sub_D__ZN2Ui7displayE
-                0x00002d9a        0x8 ui.o
+                0x00002d92        0x8 ui.o
  .text._ZN2Ui15drawDashedHLineEiiii
-                0x00002da2       0x78 ui.o
-                0x00002da2                _ZN2Ui15drawDashedHLineEiiii
+                0x00002d9a       0x78 ui.o
+                0x00002d9a                _ZN2Ui15drawDashedHLineEiiii
  .text._ZN2Ui15drawDashedVLineEiiii
-                0x00002e1a       0x78 ui.o
-                0x00002e1a                _ZN2Ui15drawDashedVLineEiiii
+                0x00002e12       0x78 ui.o
+                0x00002e12                _ZN2Ui15drawDashedVLineEiiii
  .text._ZN2Ui9clearRectEiiii
-                0x00002e92       0x26 ui.o
-                0x00002e92                _ZN2Ui9clearRectEiiii
+                0x00002e8a       0x26 ui.o
+                0x00002e8a                _ZN2Ui9clearRectEiiii
  .text._ZN2Ui9drawGraphEPKhhhhhhh
-                0x00002eb8      0x14c ui.o
-                0x00002eb8                _ZN2Ui9drawGraphEPKhhhhhhh
+                0x00002eb0      0x14c ui.o
+                0x00002eb0                _ZN2Ui9drawGraphEPKhhhhhhh
  .text._ZN2Ui10MenuHelper5resetEv
-                0x00003004        0xc ui_menu.o
-                0x00003004                _ZN2Ui10MenuHelper5resetEv
+                0x00002ffc        0xc ui_menu.o
+                0x00002ffc                _ZN2Ui10MenuHelper5resetEv
  .text._ZN2Ui10MenuHelper7addItemEPKcPKhPFvvE
-                0x00003010       0x30 ui_menu.o
-                0x00003010                _ZN2Ui10MenuHelper7addItemEPKcPKhPFvvE
+                0x00003008       0x30 ui_menu.o
+                0x00003008                _ZN2Ui10MenuHelper7addItemEPKcPKhPFvvE
  .text._ZN2Ui10MenuHelper14selectNextItemEv
-                0x00003040       0x1c ui_menu.o
-                0x00003040                _ZN2Ui10MenuHelper14selectNextItemEv
+                0x00003038       0x1c ui_menu.o
+                0x00003038                _ZN2Ui10MenuHelper14selectNextItemEv
  .text._ZN2Ui10MenuHelper18selectPreviousItemEv
-                0x0000305c       0x1c ui_menu.o
-                0x0000305c                _ZN2Ui10MenuHelper18selectPreviousItemEv
+                0x00003054       0x1c ui_menu.o
+                0x00003054                _ZN2Ui10MenuHelper18selectPreviousItemEv
  .text._ZN2Ui10MenuHelper12activateItemEv
-                0x00003078       0x1e ui_menu.o
-                0x00003078                _ZN2Ui10MenuHelper12activateItemEv
+                0x00003070       0x1e ui_menu.o
+                0x00003070                _ZN2Ui10MenuHelper12activateItemEv
  .text._ZN2Ui10MenuHelper14getCurrentItemEv
-                0x00003096       0x18 ui_menu.o
-                0x00003096                _ZN2Ui10MenuHelper14getCurrentItemEv
+                0x0000308e       0x18 ui_menu.o
+                0x0000308e                _ZN2Ui10MenuHelper14getCurrentItemEv
  .text._ZN2Ui15StateMenuHelper7addItemEPFPKhPvEPFvS3_E
-                0x000030ae       0x28 ui_state_menu.o
-                0x000030ae                _ZN2Ui15StateMenuHelper7addItemEPFPKhPvEPFvS3_E
+                0x000030a6       0x28 ui_state_menu.o
+                0x000030a6                _ZN2Ui15StateMenuHelper7addItemEPFPKhPvEPFvS3_E
  .text._ZN2Ui15StateMenuHelper13handleButtonsE6ButtonN7Buttons9PressTypeE
-                0x000030d6       0x98 ui_state_menu.o
-                0x000030d6                _ZN2Ui15StateMenuHelper13handleButtonsE6ButtonN7Buttons9PressTypeE
+                0x000030ce       0x98 ui_state_menu.o
+                0x000030ce                _ZN2Ui15StateMenuHelper13handleButtonsE6ButtonN7Buttons9PressTypeE
  .text._ZN2Ui15StateMenuHelper4drawEv
-                0x0000316e      0x156 ui_state_menu.o
-                0x0000316e                _ZN2Ui15StateMenuHelper4drawEv
+                0x00003166      0x156 ui_state_menu.o
+                0x00003166                _ZN2Ui15StateMenuHelper4drawEv
  .text.initVariant
-                0x000032c4        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
-                0x000032c4                initVariant
+                0x000032bc        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
+                0x000032bc                initVariant
  .text.startup.main
-                0x000032c6       0x1e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
-                0x000032c6                main
- .text._Znwj    0x000032e4        0x4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
-                0x000032e4                _Znwj
+                0x000032be       0x1e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
+                0x000032be                main
+ .text._Znwj    0x000032dc        0x4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
+                0x000032dc                _Znwj
  .text._ZN5Print17availableForWriteEv
-                0x000032e8        0x6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
-                0x000032e8                _ZN5Print17availableForWriteEv
+                0x000032e0        0x6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+                0x000032e0                _ZN5Print17availableForWriteEv
  .text._ZN5Print5flushEv
-                0x000032ee        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
-                0x000032ee                _ZN5Print5flushEv
+                0x000032e6        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+                0x000032e6                _ZN5Print5flushEv
  .text._ZN5Print5writeEPKhj
-                0x000032f0       0x54 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
-                0x000032f0                _ZN5Print5writeEPKhj
+                0x000032e8       0x54 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+                0x000032e8                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x00003344       0x2a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
-                0x00003344                _ZN5Print5writeEPKc
+                0x0000333c       0x2a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+                0x0000333c                _ZN5Print5writeEPKc
  .text._ZN5Print5printEPKc
-                0x0000336e        0x4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
-                0x0000336e                _ZN5Print5printEPKc
+                0x00003366        0x4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+                0x00003366                _ZN5Print5printEPKc
  .text._ZN5Print11printNumberEmh
-                0x00003372       0x92 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
-                0x00003372                _ZN5Print11printNumberEmh
+                0x0000336a       0x92 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+                0x0000336a                _ZN5Print11printNumberEmh
  .text._ZN5Print5printEmi
-                0x00003404       0x1a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
-                0x00003404                _ZN5Print5printEmi
+                0x000033fc       0x1a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+                0x000033fc                _ZN5Print5printEmi
  .text._ZN5Print5printEji
-                0x0000341e        0xc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
-                0x0000341e                _ZN5Print5printEji
+                0x00003416        0xc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+                0x00003416                _ZN5Print5printEji
  .text.__vector_16
-                0x0000342a       0x94 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
-                0x0000342a                __vector_16
- .text.millis   0x000034be       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
-                0x000034be                millis
- .text.micros   0x000034d6       0x4a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
-                0x000034d6                micros
- .text.delay    0x00003520       0x78 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
-                0x00003520                delay
+                0x00003422       0x94 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+                0x00003422                __vector_16
+ .text.millis   0x000034b6       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+                0x000034b6                millis
+ .text.micros   0x000034ce       0x4a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+                0x000034ce                micros
+ .text.delay    0x00003518       0x78 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+                0x00003518                delay
  .text.delayMicroseconds
-                0x00003598       0x16 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
-                0x00003598                delayMicroseconds
- .text.init     0x000035ae       0x76 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
-                0x000035ae                init
+                0x00003590       0x16 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+                0x00003590                delayMicroseconds
+ .text.init     0x000035a6       0x76 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+                0x000035a6                init
  .text.analogRead
-                0x00003624       0x3a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
-                0x00003624                analogRead
+                0x0000361c       0x3a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
+                0x0000361c                analogRead
  .text.turnOffPWM
-                0x0000365e       0x52 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x000036b0       0x78 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
-                0x000036b0                pinMode
+                0x00003656       0x52 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x000036a8       0x78 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+                0x000036a8                pinMode
  .text.digitalWrite
-                0x00003728       0x5e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
-                0x00003728                digitalWrite
+                0x00003720       0x5e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+                0x00003720                digitalWrite
  .text.digitalRead
-                0x00003786       0x52 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
-                0x00003786                digitalRead
+                0x0000377e       0x52 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+                0x0000377e                digitalRead
  .text._Z3maplllll
-                0x000037d8       0x82 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
-                0x000037d8                _Z3maplllll
+                0x000037d0       0x82 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
+                0x000037d0                _Z3maplllll
  .text._ZN12Adafruit_GFX9writeLineEiiiij
-                0x0000385a      0x164 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x0000385a                _ZN12Adafruit_GFX9writeLineEiiiij
+                0x00003852      0x164 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003852                _ZN12Adafruit_GFX9writeLineEiiiij
  .text._ZN12Adafruit_GFX10writePixelEiij
-                0x000039be        0xe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x000039be                _ZN12Adafruit_GFX10writePixelEiij
+                0x000039b6        0xe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x000039b6                _ZN12Adafruit_GFX10writePixelEiij
  .text._ZN12Adafruit_GFX14writeFastVLineEiiij
-                0x000039cc       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x000039cc                _ZN12Adafruit_GFX14writeFastVLineEiiij
+                0x000039c4       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x000039c4                _ZN12Adafruit_GFX14writeFastVLineEiiij
  .text._ZN12Adafruit_GFX14writeFastHLineEiiij
-                0x000039e4       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x000039e4                _ZN12Adafruit_GFX14writeFastHLineEiiij
+                0x000039dc       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x000039dc                _ZN12Adafruit_GFX14writeFastHLineEiiij
  .text._ZN12Adafruit_GFX13writeFillRectEiiiij
-                0x000039fc       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x000039fc                _ZN12Adafruit_GFX13writeFillRectEiiiij
+                0x000039f4       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x000039f4                _ZN12Adafruit_GFX13writeFillRectEiiiij
  .text._ZN12Adafruit_GFX8endWriteEv
-                0x00003a1c        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003a1c                _ZN12Adafruit_GFX10startWriteEv
-                0x00003a1c                _ZN12Adafruit_GFX8endWriteEv
+                0x00003a14        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003a14                _ZN12Adafruit_GFX10startWriteEv
+                0x00003a14                _ZN12Adafruit_GFX8endWriteEv
  .text._ZN12Adafruit_GFX13drawFastVLineEiiij
-                0x00003a1e       0x72 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003a1e                _ZN12Adafruit_GFX13drawFastVLineEiiij
+                0x00003a16       0x72 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003a16                _ZN12Adafruit_GFX13drawFastVLineEiiij
  .text._ZN12Adafruit_GFX13drawFastHLineEiiij
-                0x00003a90       0x72 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003a90                _ZN12Adafruit_GFX13drawFastHLineEiiij
+                0x00003a88       0x72 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003a88                _ZN12Adafruit_GFX13drawFastHLineEiiij
  .text._ZN12Adafruit_GFX8fillRectEiiiij
-                0x00003b02       0x8a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003b02                _ZN12Adafruit_GFX8fillRectEiiiij
+                0x00003afa       0x8a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003afa                _ZN12Adafruit_GFX8fillRectEiiiij
  .text._ZN12Adafruit_GFX10fillScreenEj
-                0x00003b8c       0x3a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003b8c                _ZN12Adafruit_GFX10fillScreenEj
+                0x00003b84       0x3a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003b84                _ZN12Adafruit_GFX10fillScreenEj
  .text._ZN12Adafruit_GFX8drawLineEiiiij
-                0x00003bc6       0xda C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003bc6                _ZN12Adafruit_GFX8drawLineEiiiij
+                0x00003bbe       0xda C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003bbe                _ZN12Adafruit_GFX8drawLineEiiiij
  .text._ZN12Adafruit_GFX8drawRectEiiiij
-                0x00003ca0       0xbe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003ca0                _ZN12Adafruit_GFX8drawRectEiiiij
+                0x00003c98       0xbe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003c98                _ZN12Adafruit_GFX8drawRectEiiiij
  .text._ZN12Adafruit_GFX13invertDisplayEb
-                0x00003d5e        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003d5e                _ZN12Adafruit_GFX13invertDisplayEb
+                0x00003d56        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003d56                _ZN12Adafruit_GFX13invertDisplayEb
  .text._ZN12Adafruit_GFX11setRotationEh
-                0x00003d60       0x2a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003d60                _ZN12Adafruit_GFX11setRotationEh
+                0x00003d58       0x2a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003d58                _ZN12Adafruit_GFX11setRotationEh
  .text._ZN12Adafruit_GFXC2Eii
-                0x00003d8a       0x44 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003d8a                _ZN12Adafruit_GFXC2Eii
-                0x00003d8a                _ZN12Adafruit_GFXC1Eii
+                0x00003d82       0x44 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003d82                _ZN12Adafruit_GFXC2Eii
+                0x00003d82                _ZN12Adafruit_GFXC1Eii
  .text._ZN12Adafruit_GFX16drawCircleHelperEiiihj
-                0x00003dce      0x1fc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003dce                _ZN12Adafruit_GFX16drawCircleHelperEiiihj
+                0x00003dc6      0x1fc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003dc6                _ZN12Adafruit_GFX16drawCircleHelperEiiihj
  .text._ZN12Adafruit_GFX13drawRoundRectEiiiiij
-                0x00003fca      0x1d6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00003fca                _ZN12Adafruit_GFX13drawRoundRectEiiiiij
+                0x00003fc2      0x1d6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00003fc2                _ZN12Adafruit_GFX13drawRoundRectEiiiiij
  .text._ZN12Adafruit_GFX12fillTriangleEiiiiiij
-                0x000041a0      0x3c4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x000041a0                _ZN12Adafruit_GFX12fillTriangleEiiiiiij
+                0x00004198      0x3c4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00004198                _ZN12Adafruit_GFX12fillTriangleEiiiiiij
  .text._ZN12Adafruit_GFX10drawBitmapEiiPKhiij
-                0x00004564      0x13c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00004564                _ZN12Adafruit_GFX10drawBitmapEiiPKhiij
+                0x0000455c      0x13c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x0000455c                _ZN12Adafruit_GFX10drawBitmapEiiPKhiij
  .text._ZN12Adafruit_GFX8drawCharEiihjjhh
-                0x000046a0      0x46a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x000046a0                _ZN12Adafruit_GFX8drawCharEiihjjhh
+                0x00004698      0x46a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00004698                _ZN12Adafruit_GFX8drawCharEiihjjhh
  .text._ZN12Adafruit_GFX5writeEh
-                0x00004b0a      0x1b0 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00004b0a                _ZN12Adafruit_GFX5writeEh
+                0x00004b02      0x1b0 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00004b02                _ZN12Adafruit_GFX5writeEh
  .text._ZN12Adafruit_GFX11setTextSizeEhh
-                0x00004cba       0x16 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00004cba                _ZN12Adafruit_GFX11setTextSizeEhh
+                0x00004cb2       0x16 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00004cb2                _ZN12Adafruit_GFX11setTextSizeEhh
  .text._ZN12Adafruit_GFX11setTextSizeEh
-                0x00004cd0        0x6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
-                0x00004cd0                _ZN12Adafruit_GFX11setTextSizeEh
+                0x00004cc8        0x6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+                0x00004cc8                _ZN12Adafruit_GFX11setTextSizeEh
  .text._ZN16Adafruit_SSD13069drawPixelEiij
-                0x00004cd6      0x17a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00004cd6                _ZN16Adafruit_SSD13069drawPixelEiij
+                0x00004cce      0x17a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00004cce                _ZN16Adafruit_SSD13069drawPixelEiij
  .text._ZN8SPIClass16beginTransactionE11SPISettings
-                0x00004e50       0x34 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00004e50                _ZN8SPIClass16beginTransactionE11SPISettings
+                0x00004e48       0x34 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00004e48                _ZN8SPIClass16beginTransactionE11SPISettings
  .text._ZN8SPIClass8transferEh
-                0x00004e84        0xe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00004e84                _ZN8SPIClass8transferEh
+                0x00004e7c        0xe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00004e7c                _ZN8SPIClass8transferEh
  .text._ZN8SPIClass14endTransactionEv
-                0x00004e92       0x22 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00004e92                _ZN8SPIClass14endTransactionEv
+                0x00004e8a       0x22 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00004e8a                _ZN8SPIClass14endTransactionEv
  .text._ZN16Adafruit_SSD1306C2Ea
-                0x00004eb4       0x48 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00004eb4                _ZN16Adafruit_SSD1306C2Ea
-                0x00004eb4                _ZN16Adafruit_SSD1306C1Ea
+                0x00004eac       0x48 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00004eac                _ZN16Adafruit_SSD1306C2Ea
+                0x00004eac                _ZN16Adafruit_SSD1306C1Ea
  .text._ZN16Adafruit_SSD1306D2Ev
-                0x00004efc       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00004efc                _ZN16Adafruit_SSD1306D1Ev
-                0x00004efc                _ZN16Adafruit_SSD1306D2Ev
+                0x00004ef4       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00004ef4                _ZN16Adafruit_SSD1306D1Ev
+                0x00004ef4                _ZN16Adafruit_SSD1306D2Ev
  .text._ZN16Adafruit_SSD130616ssd1306_command1Eh
-                0x00004f14       0xc2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00004f14                _ZN16Adafruit_SSD130616ssd1306_command1Eh
+                0x00004f0c       0xc2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00004f0c                _ZN16Adafruit_SSD130616ssd1306_command1Eh
  .text._ZN16Adafruit_SSD130613invertDisplayEb
-                0x00004fd6       0x8e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00004fd6                _ZN16Adafruit_SSD130613invertDisplayEb
+                0x00004fce       0x8e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00004fce                _ZN16Adafruit_SSD130613invertDisplayEb
  .text._ZN16Adafruit_SSD130619ssd1306_commandListEPKhh
-                0x00005064      0x150 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00005064                _ZN16Adafruit_SSD130619ssd1306_commandListEPKhh
+                0x0000505c      0x150 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x0000505c                _ZN16Adafruit_SSD130619ssd1306_commandListEPKhh
  .text._ZN16Adafruit_SSD130612clearDisplayEv
-                0x000051b4       0x3c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x000051b4                _ZN16Adafruit_SSD130612clearDisplayEv
+                0x000051ac       0x3c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x000051ac                _ZN16Adafruit_SSD130612clearDisplayEv
  .text._ZN16Adafruit_SSD13065beginEhhbb
-                0x000051f0      0x3a2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x000051f0                _ZN16Adafruit_SSD13065beginEhhbb
+                0x000051e8      0x3a2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x000051e8                _ZN16Adafruit_SSD13065beginEhhbb
  .text._ZN16Adafruit_SSD130621drawFastHLineInternalEiiij
-                0x00005592       0xe0 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00005592                _ZN16Adafruit_SSD130621drawFastHLineInternalEiiij
+                0x0000558a       0xe0 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x0000558a                _ZN16Adafruit_SSD130621drawFastHLineInternalEiiij
  .text._ZN16Adafruit_SSD130621drawFastVLineInternalEiiij
-                0x00005672      0x16a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x00005672                _ZN16Adafruit_SSD130621drawFastVLineInternalEiiij
+                0x0000566a      0x16a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x0000566a                _ZN16Adafruit_SSD130621drawFastVLineInternalEiiij
  .text._ZN16Adafruit_SSD130613drawFastHLineEiiij
-                0x000057dc       0x82 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x000057dc                _ZN16Adafruit_SSD130613drawFastHLineEiiij
+                0x000057d4       0x82 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x000057d4                _ZN16Adafruit_SSD130613drawFastHLineEiiij
  .text._ZN16Adafruit_SSD130613drawFastVLineEiiij
-                0x0000585e       0x84 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x0000585e                _ZN16Adafruit_SSD130613drawFastVLineEiiij
+                0x00005856       0x84 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x00005856                _ZN16Adafruit_SSD130613drawFastVLineEiiij
  .text._ZN16Adafruit_SSD13067displayEv
-                0x000058e2      0x1e4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
-                0x000058e2                _ZN16Adafruit_SSD13067displayEv
+                0x000058da      0x1e4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+                0x000058da                _ZN16Adafruit_SSD13067displayEv
  .text._ZN8SPIClass5beginEv
-                0x00005ac6       0x6c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
-                0x00005ac6                _ZN8SPIClass5beginEv
+                0x00005abe       0x6c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
+                0x00005abe                _ZN8SPIClass5beginEv
  .text._ZN7TwoWire9availableEv
-                0x00005b32       0x10 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005b32                _ZN7TwoWire9availableEv
+                0x00005b2a       0x10 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005b2a                _ZN7TwoWire9availableEv
  .text._ZN7TwoWire4readEv
-                0x00005b42       0x28 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005b42                _ZN7TwoWire4readEv
+                0x00005b3a       0x28 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005b3a                _ZN7TwoWire4readEv
  .text._ZN7TwoWire4peekEv
-                0x00005b6a       0x1e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005b6a                _ZN7TwoWire4peekEv
+                0x00005b62       0x1e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005b62                _ZN7TwoWire4peekEv
  .text._ZN7TwoWire5flushEv
-                0x00005b88        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005b88                _ZN7TwoWire5flushEv
+                0x00005b80        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005b80                _ZN7TwoWire5flushEv
  .text._ZN7TwoWire16onReceiveServiceEPhi
-                0x00005b8a       0x54 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005b8a                _ZN7TwoWire16onReceiveServiceEPhi
+                0x00005b82       0x54 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005b82                _ZN7TwoWire16onReceiveServiceEPhi
  .text._ZN7TwoWire16onRequestServiceEv
-                0x00005bde       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005bde                _ZN7TwoWire16onRequestServiceEv
+                0x00005bd6       0x18 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005bd6                _ZN7TwoWire16onRequestServiceEv
  .text._ZN7TwoWire5writeEPKhj
-                0x00005bf6       0x5a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005bf6                _ZN7TwoWire5writeEPKhj
+                0x00005bee       0x5a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005bee                _ZN7TwoWire5writeEPKhj
  .text._ZN7TwoWire5writeEh
-                0x00005c50       0x5e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005c50                _ZN7TwoWire5writeEh
+                0x00005c48       0x5e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005c48                _ZN7TwoWire5writeEh
  .text._ZN7TwoWireC2Ev
-                0x00005cae       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005cae                _ZN7TwoWireC1Ev
-                0x00005cae                _ZN7TwoWireC2Ev
+                0x00005ca6       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005ca6                _ZN7TwoWireC1Ev
+                0x00005ca6                _ZN7TwoWireC2Ev
  .text._ZN7TwoWire5beginEv
-                0x00005cce       0x24 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005cce                _ZN7TwoWire5beginEv
+                0x00005cc6       0x24 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005cc6                _ZN7TwoWire5beginEv
  .text._ZN7TwoWire8setClockEm
-                0x00005cf2        0x8 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005cf2                _ZN7TwoWire8setClockEm
+                0x00005cea        0x8 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005cea                _ZN7TwoWire8setClockEm
  .text._ZN7TwoWire17beginTransmissionEh
-                0x00005cfa       0x14 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005cfa                _ZN7TwoWire17beginTransmissionEh
+                0x00005cf2       0x14 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005cf2                _ZN7TwoWire17beginTransmissionEh
  .text._ZN7TwoWire17beginTransmissionEi
-                0x00005d0e        0x4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005d0e                _ZN7TwoWire17beginTransmissionEi
+                0x00005d06        0x4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005d06                _ZN7TwoWire17beginTransmissionEi
  .text._ZN7TwoWire15endTransmissionEh
-                0x00005d12       0x26 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005d12                _ZN7TwoWire15endTransmissionEh
+                0x00005d0a       0x26 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005d0a                _ZN7TwoWire15endTransmissionEh
  .text._ZN7TwoWire15endTransmissionEv
-                0x00005d38        0x6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
-                0x00005d38                _ZN7TwoWire15endTransmissionEv
+                0x00005d30        0x6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005d30                _ZN7TwoWire15endTransmissionEv
  .text.startup._GLOBAL__sub_I__ZN7TwoWire8rxBufferE
-                0x00005d3e        0x8 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+                0x00005d36        0x8 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
  .text.__cxa_pure_virtual
-                0x00005d46        0x4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
-                0x00005d46                __cxa_pure_virtual
- .text.__empty  0x00005d4a        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
-                0x00005d4a                yield
+                0x00005d3e        0x4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
+                0x00005d3e                __cxa_pure_virtual
+ .text.__empty  0x00005d42        0x2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
+                0x00005d42                yield
  .text.twi_init
-                0x00005d4c       0x3c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005d4c                twi_init
+                0x00005d44       0x3c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005d44                twi_init
  .text.twi_disable
-                0x00005d88       0x1a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005d88                twi_disable
+                0x00005d80       0x1a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005d80                twi_disable
  .text.twi_setFrequency
-                0x00005da2       0x28 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005da2                twi_setFrequency
+                0x00005d9a       0x28 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005d9a                twi_setFrequency
  .text.twi_transmit
-                0x00005dca       0x50 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005dca                twi_transmit
+                0x00005dc2       0x50 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005dc2                twi_transmit
  .text.twi_attachSlaveRxEvent
-                0x00005e1a        0xa C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005e1a                twi_attachSlaveRxEvent
+                0x00005e12        0xa C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005e12                twi_attachSlaveRxEvent
  .text.twi_attachSlaveTxEvent
-                0x00005e24        0xa C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005e24                twi_attachSlaveTxEvent
+                0x00005e1c        0xa C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005e1c                twi_attachSlaveTxEvent
  .text.twi_releaseBus
-                0x00005e2e        0xc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005e2e                twi_releaseBus
+                0x00005e26        0xc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005e26                twi_releaseBus
  .text.twi_handleTimeout
-                0x00005e3a       0x2c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005e3a                twi_handleTimeout
+                0x00005e32       0x2c C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005e32                twi_handleTimeout
  .text.twi_writeTo
-                0x00005e66      0x1e0 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00005e66                twi_writeTo
+                0x00005e5e      0x1e0 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x00005e5e                twi_writeTo
  .text.twi_stop
-                0x00006046       0x70 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x00006046                twi_stop
+                0x0000603e       0x70 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x0000603e                twi_stop
  .text.__vector_24
-                0x000060b6      0x25a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
-                0x000060b6                __vector_24
+                0x000060ae      0x25a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+                0x000060ae                __vector_24
  .text.libgcc.mul
-                0x00006310       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
-                0x00006310                __mulsi3
+                0x00006308       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulsi3.o)
+                0x00006308                __mulsi3
  .text.libgcc.div
-                0x00006330       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
-                0x00006330                _div
-                0x00006330                __divmodhi4
+                0x00006328       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x00006328                _div
+                0x00006328                __divmodhi4
  .text.libgcc.div
-                0x00006358       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00006358                __udivmodsi4
+                0x00006350       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00006350                __udivmodsi4
  .text.libgcc.div
-                0x0000639c       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
-                0x0000639c                __divmodsi4
+                0x00006394       0x2e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00006394                __divmodsi4
  .text.libgcc.div
-                0x000063ca       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
-                0x000063ca                __negsi2
+                0x000063c2       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_negsi2.o)
+                0x000063c2                __negsi2
  .text.libgcc.mul
-                0x000063da       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulhisi3.o)
-                0x000063da                __mulhisi3
+                0x000063d2       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_mulhisi3.o)
+                0x000063d2                __mulhisi3
  .text.libgcc.mul
-                0x000063ea       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
-                0x000063ea                __umulhisi3
+                0x000063e2       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x000063e2                __umulhisi3
  .text.libgcc.mul
-                0x00006408        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_usmulhisi3.o)
-                0x00006408                __usmulhisi3
-                0x0000640c                __usmulhisi3_tail
+                0x00006400        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_usmulhisi3.o)
+                0x00006400                __usmulhisi3
+                0x00006404                __usmulhisi3_tail
  .text.libgcc.mul
-                0x00006416       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
-                0x00006416                __muluhisi3
+                0x0000640e       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_muluhisi3.o)
+                0x0000640e                __muluhisi3
  .text.libgcc.div
-                0x0000642c       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
-                0x0000642c                __udivmodhi4
- .text.libgcc   0x00006454        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x00006454                __tablejump2__
+                0x00006424       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x00006424                __udivmodhi4
+ .text.libgcc   0x0000644c        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x0000644c                __tablejump2__
  .text.avr-libc
-                0x00006460      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00006460                malloc
-                0x00006590                free
+                0x00006458      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00006458                malloc
+                0x00006588                free
  .text.avr-libc
-                0x000066a2        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
-                0x000066a2                abort
+                0x0000669a        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+                0x0000669a                abort
  .text.avr-libc
-                0x000066ac       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
-                0x000066ac                memcpy_P
+                0x000066a4       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy_P.o)
+                0x000066a4                memcpy_P
  .text.avr-libc
-                0x000066be        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
-                0x000066be                memset
+                0x000066b6        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x000066b6                memset
  .text.avr-libc
-                0x000066cc       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
-                0x000066cc                eeprom_read_byte
+                0x000066c4       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+                0x000066c4                eeprom_read_byte
  .text.avr-libc
-                0x000066dc       0x1c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
-                0x000066dc                eeprom_write_byte
-                0x000066de                eeprom_write_r18
-                0x000066f8                . = ALIGN (0x2)
+                0x000066d4       0x1c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+                0x000066d4                eeprom_write_byte
+                0x000066d6                eeprom_write_r18
+                0x000066f0                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000066f8        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x000066f8                _exit
-                0x000066f8                exit
+ .fini9         0x000066f0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000066f0                _exit
+                0x000066f0                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x000066f8       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
-                0x000066f8                __do_global_dtors
+ .fini6         0x000066f0       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_dtors.o)
+                0x000066f0                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -1973,11 +1973,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000670e        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00006706        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00006712                _etext = .
+                0x0000670a                _etext = .
 
-.data           0x00800100       0xd2 load address 0x00006712
+.data           0x00800100       0xd2 load address 0x0000670a
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
@@ -2199,8 +2199,8 @@ END GROUP
                 0x008003cd                __brkval
                 0x008003cf                __flp
                 0x008003d1                PROVIDE (__bss_end, .)
-                0x00006712                __data_load_start = LOADADDR (.data)
-                0x000067e4                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000670a                __data_load_start = LOADADDR (.data)
+                0x000067dc                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x008003d1        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
@@ -2383,125 +2383,125 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x20a43
+.debug_info     0x00000000    0x20a50
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_info    0x000005f4      0x6ec buttons.o
- .debug_info    0x00000ce0      0x395 channels.o
- .debug_info    0x00001075      0x162 pstr_helper.o
- .debug_info    0x000011d7      0xbb9 receiver.o
- .debug_info    0x00001d90      0x513 receiver_spi.o
- .debug_info    0x000022a3      0xf3d settings_eeprom.o
- .debug_info    0x000031e0      0xbd4 Sketch.o
- .debug_info    0x00003db4     0x11c3 state.o
- .debug_info    0x00004f77      0xf21 state_bandscan.o
- .debug_info    0x00005e98      0xc62 state_menu.o
- .debug_info    0x00006afa      0xabd state_menu_ui.o
- .debug_info    0x000075b7      0xc9d state_screensaver.o
- .debug_info    0x00008254     0x122f state_search.o
- .debug_info    0x00009483      0xfb3 state_search_ui.o
- .debug_info    0x0000a436      0x9c7 state_settings.o
- .debug_info    0x0000adfd     0x11c0 state_settings_rssi.o
- .debug_info    0x0000bfbd      0x2f1 timer.o
- .debug_info    0x0000c2ae      0xc91 ui.o
- .debug_info    0x0000cf3f      0x71a ui_menu.o
- .debug_info    0x0000d659      0x8d1 ui_state_menu.o
- .debug_info    0x0000df2a      0x237 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
- .debug_info    0x0000e161      0x15f C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
- .debug_info    0x0000e2c0     0x28ff C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
- .debug_info    0x00010bbf      0x2cb C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
- .debug_info    0x00010e8a      0x26d C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
- .debug_info    0x000110f7      0x5fe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x000116f5      0x230 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
- .debug_info    0x00011925     0x89c6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
- .debug_info    0x0001a2eb     0x2d19 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
- .debug_info    0x0001d004      0x66b C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
- .debug_info    0x0001d66f     0x2910 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
- .debug_info    0x0001ff7f       0x76 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
- .debug_info    0x0001fff5       0x3e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
- .debug_info    0x00020033      0x8dc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
- .debug_info    0x0002090f       0x9a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
- .debug_info    0x000209a9       0x9a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_info    0x000005f4      0x6f9 buttons.o
+ .debug_info    0x00000ced      0x395 channels.o
+ .debug_info    0x00001082      0x162 pstr_helper.o
+ .debug_info    0x000011e4      0xbb9 receiver.o
+ .debug_info    0x00001d9d      0x513 receiver_spi.o
+ .debug_info    0x000022b0      0xf3d settings_eeprom.o
+ .debug_info    0x000031ed      0xbd4 Sketch.o
+ .debug_info    0x00003dc1     0x11c3 state.o
+ .debug_info    0x00004f84      0xf21 state_bandscan.o
+ .debug_info    0x00005ea5      0xc62 state_menu.o
+ .debug_info    0x00006b07      0xabd state_menu_ui.o
+ .debug_info    0x000075c4      0xc9d state_screensaver.o
+ .debug_info    0x00008261     0x122f state_search.o
+ .debug_info    0x00009490      0xfb3 state_search_ui.o
+ .debug_info    0x0000a443      0x9c7 state_settings.o
+ .debug_info    0x0000ae0a     0x11c0 state_settings_rssi.o
+ .debug_info    0x0000bfca      0x2f1 timer.o
+ .debug_info    0x0000c2bb      0xc91 ui.o
+ .debug_info    0x0000cf4c      0x71a ui_menu.o
+ .debug_info    0x0000d666      0x8d1 ui_state_menu.o
+ .debug_info    0x0000df37      0x237 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
+ .debug_info    0x0000e16e      0x15f C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
+ .debug_info    0x0000e2cd     0x28ff C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+ .debug_info    0x00010bcc      0x2cb C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+ .debug_info    0x00010e97      0x26d C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
+ .debug_info    0x00011104      0x5fe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x00011702      0x230 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
+ .debug_info    0x00011932     0x89c6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+ .debug_info    0x0001a2f8     0x2d19 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+ .debug_info    0x0001d011      0x66b C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
+ .debug_info    0x0001d67c     0x2910 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+ .debug_info    0x0001ff8c       0x76 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
+ .debug_info    0x00020002       0x3e C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
+ .debug_info    0x00020040      0x8dc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+ .debug_info    0x0002091c       0x9a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .debug_info    0x000209b6       0x9a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
 
-.debug_abbrev   0x00000000     0x6ba9
+.debug_abbrev   0x00000000     0x6bb4
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_abbrev  0x000005a2      0x28f buttons.o
- .debug_abbrev  0x00000831       0xf9 channels.o
- .debug_abbrev  0x0000092a       0xca pstr_helper.o
- .debug_abbrev  0x000009f4      0x38d receiver.o
- .debug_abbrev  0x00000d81      0x18e receiver_spi.o
- .debug_abbrev  0x00000f0f      0x309 settings_eeprom.o
- .debug_abbrev  0x00001218      0x368 Sketch.o
- .debug_abbrev  0x00001580      0x4d6 state.o
- .debug_abbrev  0x00001a56      0x43c state_bandscan.o
- .debug_abbrev  0x00001e92      0x426 state_menu.o
- .debug_abbrev  0x000022b8      0x39f state_menu_ui.o
- .debug_abbrev  0x00002657      0x3f9 state_screensaver.o
- .debug_abbrev  0x00002a50      0x51a state_search.o
- .debug_abbrev  0x00002f6a      0x3d6 state_search_ui.o
- .debug_abbrev  0x00003340      0x3ab state_settings.o
- .debug_abbrev  0x000036eb      0x45d state_settings_rssi.o
- .debug_abbrev  0x00003b48      0x185 timer.o
- .debug_abbrev  0x00003ccd      0x37c ui.o
- .debug_abbrev  0x00004049      0x2da ui_menu.o
- .debug_abbrev  0x00004323      0x38a ui_state_menu.o
- .debug_abbrev  0x000046ad      0x12d C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
- .debug_abbrev  0x000047da      0x109 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
- .debug_abbrev  0x000048e3      0x47a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00004d5d      0x146 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x00004ea3      0x16b C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
- .debug_abbrev  0x0000500e      0x15b C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x00005169      0x12b C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
- .debug_abbrev  0x00005294      0x788 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
- .debug_abbrev  0x00005a1c      0x5f6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
- .debug_abbrev  0x00006012      0x283 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
- .debug_abbrev  0x00006295      0x563 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
- .debug_abbrev  0x000067f8       0x6d C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
- .debug_abbrev  0x00006865       0x2a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
- .debug_abbrev  0x0000688f      0x2f2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
- .debug_abbrev  0x00006b81       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
- .debug_abbrev  0x00006b95       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_abbrev  0x000005a2      0x29a buttons.o
+ .debug_abbrev  0x0000083c       0xf9 channels.o
+ .debug_abbrev  0x00000935       0xca pstr_helper.o
+ .debug_abbrev  0x000009ff      0x38d receiver.o
+ .debug_abbrev  0x00000d8c      0x18e receiver_spi.o
+ .debug_abbrev  0x00000f1a      0x309 settings_eeprom.o
+ .debug_abbrev  0x00001223      0x368 Sketch.o
+ .debug_abbrev  0x0000158b      0x4d6 state.o
+ .debug_abbrev  0x00001a61      0x43c state_bandscan.o
+ .debug_abbrev  0x00001e9d      0x426 state_menu.o
+ .debug_abbrev  0x000022c3      0x39f state_menu_ui.o
+ .debug_abbrev  0x00002662      0x3f9 state_screensaver.o
+ .debug_abbrev  0x00002a5b      0x51a state_search.o
+ .debug_abbrev  0x00002f75      0x3d6 state_search_ui.o
+ .debug_abbrev  0x0000334b      0x3ab state_settings.o
+ .debug_abbrev  0x000036f6      0x45d state_settings_rssi.o
+ .debug_abbrev  0x00003b53      0x185 timer.o
+ .debug_abbrev  0x00003cd8      0x37c ui.o
+ .debug_abbrev  0x00004054      0x2da ui_menu.o
+ .debug_abbrev  0x0000432e      0x38a ui_state_menu.o
+ .debug_abbrev  0x000046b8      0x12d C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
+ .debug_abbrev  0x000047e5      0x109 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
+ .debug_abbrev  0x000048ee      0x47a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00004d68      0x146 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00004eae      0x16b C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
+ .debug_abbrev  0x00005019      0x15b C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00005174      0x12b C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
+ .debug_abbrev  0x0000529f      0x788 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+ .debug_abbrev  0x00005a27      0x5f6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+ .debug_abbrev  0x0000601d      0x283 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
+ .debug_abbrev  0x000062a0      0x563 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+ .debug_abbrev  0x00006803       0x6d C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00006870       0x2a C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x0000689a      0x2f2 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+ .debug_abbrev  0x00006b8c       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .debug_abbrev  0x00006ba0       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
 
-.debug_line     0x00000000     0xa235
+.debug_line     0x00000000     0xa21d
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x134 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_line    0x00000134      0x36c buttons.o
- .debug_line    0x000004a0      0x15d channels.o
- .debug_line    0x000005fd       0xd2 pstr_helper.o
- .debug_line    0x000006cf      0x3dc receiver.o
- .debug_line    0x00000aab      0x223 receiver_spi.o
- .debug_line    0x00000cce      0x2ad settings_eeprom.o
- .debug_line    0x00000f7b      0x3b3 Sketch.o
- .debug_line    0x0000132e      0x4db state.o
- .debug_line    0x00001809      0x433 state_bandscan.o
- .debug_line    0x00001c3c      0x314 state_menu.o
- .debug_line    0x00001f50      0x33c state_menu_ui.o
- .debug_line    0x0000228c      0x3a2 state_screensaver.o
- .debug_line    0x0000262e      0x578 state_search.o
- .debug_line    0x00002ba6      0x45a state_search_ui.o
- .debug_line    0x00003000      0x2f5 state_settings.o
- .debug_line    0x000032f5      0x5a5 state_settings_rssi.o
- .debug_line    0x0000389a      0x1ae timer.o
- .debug_line    0x00003a48      0x4d5 ui.o
- .debug_line    0x00003f1d      0x2be ui_menu.o
- .debug_line    0x000041db      0x3f8 ui_state_menu.o
- .debug_line    0x000045d3      0x165 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
- .debug_line    0x00004738      0x145 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
- .debug_line    0x0000487d      0x685 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
- .debug_line    0x00004f02      0x299 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
- .debug_line    0x0000519b      0x20f C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
- .debug_line    0x000053aa      0x252 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
- .debug_line    0x000055fc      0x143 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
- .debug_line    0x0000573f     0x2665 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
- .debug_line    0x00007da4     0x12ba C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
- .debug_line    0x0000905e      0x2e3 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
- .debug_line    0x00009341      0x637 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
- .debug_line    0x00009978       0xa9 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
- .debug_line    0x00009a21       0x41 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
- .debug_line    0x00009a62      0x6bb C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
- .debug_line    0x0000a11d       0x7a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
- .debug_line    0x0000a197       0x9e C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+ .debug_line    0x00000134      0x354 buttons.o
+ .debug_line    0x00000488      0x15d channels.o
+ .debug_line    0x000005e5       0xd2 pstr_helper.o
+ .debug_line    0x000006b7      0x3dc receiver.o
+ .debug_line    0x00000a93      0x223 receiver_spi.o
+ .debug_line    0x00000cb6      0x2ad settings_eeprom.o
+ .debug_line    0x00000f63      0x3b3 Sketch.o
+ .debug_line    0x00001316      0x4db state.o
+ .debug_line    0x000017f1      0x433 state_bandscan.o
+ .debug_line    0x00001c24      0x314 state_menu.o
+ .debug_line    0x00001f38      0x33c state_menu_ui.o
+ .debug_line    0x00002274      0x3a2 state_screensaver.o
+ .debug_line    0x00002616      0x578 state_search.o
+ .debug_line    0x00002b8e      0x45a state_search_ui.o
+ .debug_line    0x00002fe8      0x2f5 state_settings.o
+ .debug_line    0x000032dd      0x5a5 state_settings_rssi.o
+ .debug_line    0x00003882      0x1ae timer.o
+ .debug_line    0x00003a30      0x4d5 ui.o
+ .debug_line    0x00003f05      0x2be ui_menu.o
+ .debug_line    0x000041c3      0x3f8 ui_state_menu.o
+ .debug_line    0x000045bb      0x165 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
+ .debug_line    0x00004720      0x145 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
+ .debug_line    0x00004865      0x685 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+ .debug_line    0x00004eea      0x299 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+ .debug_line    0x00005183      0x20f C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
+ .debug_line    0x00005392      0x252 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x000055e4      0x143 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
+ .debug_line    0x00005727     0x2665 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+ .debug_line    0x00007d8c     0x12ba C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+ .debug_line    0x00009046      0x2e3 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
+ .debug_line    0x00009329      0x637 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+ .debug_line    0x00009960       0xa9 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
+ .debug_line    0x00009a09       0x41 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
+ .debug_line    0x00009a4a      0x6bb C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+ .debug_line    0x0000a105       0x7a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+ .debug_line    0x0000a17f       0x9e C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
 
 .debug_frame    0x00000000     0x3350
  *(.debug_frame)
@@ -2612,39 +2612,39 @@ END GROUP
  .debug_str     0x00006ae1      0x21f C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
                                 0x4ea (size before relaxing)
 
-.debug_loc      0x00000000    0x173a4
+.debug_loc      0x00000000    0x17372
  *(.debug_loc)
- .debug_loc     0x00000000      0x3ca buttons.o
- .debug_loc     0x000003ca      0x187 channels.o
- .debug_loc     0x00000551       0xfd pstr_helper.o
- .debug_loc     0x0000064e      0x40b receiver.o
- .debug_loc     0x00000a59      0x2b6 receiver_spi.o
- .debug_loc     0x00000d0f      0x450 settings_eeprom.o
- .debug_loc     0x0000115f       0xbc Sketch.o
- .debug_loc     0x0000121b      0x262 state.o
- .debug_loc     0x0000147d      0x295 state_bandscan.o
- .debug_loc     0x00001712      0x2c1 state_menu.o
- .debug_loc     0x000019d3      0x246 state_menu_ui.o
- .debug_loc     0x00001c19      0x25e state_screensaver.o
- .debug_loc     0x00001e77      0x5bc state_search.o
- .debug_loc     0x00002433      0x3dc state_search_ui.o
- .debug_loc     0x0000280f       0xc8 state_settings.o
- .debug_loc     0x000028d7      0x557 state_settings_rssi.o
- .debug_loc     0x00002e2e      0x19f timer.o
- .debug_loc     0x00002fcd      0xb34 ui.o
- .debug_loc     0x00003b01       0xc0 ui_menu.o
- .debug_loc     0x00003bc1      0x29e ui_state_menu.o
- .debug_loc     0x00003e5f       0x72 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
- .debug_loc     0x00003ed1     0x1c87 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
- .debug_loc     0x00005b58      0x28d C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
- .debug_loc     0x00005de5       0xfe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
- .debug_loc     0x00005ee3      0x5fc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
- .debug_loc     0x000064df      0x3d6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
- .debug_loc     0x000068b5     0xc240 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
- .debug_loc     0x00012af5     0x3191 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
- .debug_loc     0x00015c86      0x1e4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
- .debug_loc     0x00015e6a      0xcbb C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
- .debug_loc     0x00016b25      0x87f C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+ .debug_loc     0x00000000      0x398 buttons.o
+ .debug_loc     0x00000398      0x187 channels.o
+ .debug_loc     0x0000051f       0xfd pstr_helper.o
+ .debug_loc     0x0000061c      0x40b receiver.o
+ .debug_loc     0x00000a27      0x2b6 receiver_spi.o
+ .debug_loc     0x00000cdd      0x450 settings_eeprom.o
+ .debug_loc     0x0000112d       0xbc Sketch.o
+ .debug_loc     0x000011e9      0x262 state.o
+ .debug_loc     0x0000144b      0x295 state_bandscan.o
+ .debug_loc     0x000016e0      0x2c1 state_menu.o
+ .debug_loc     0x000019a1      0x246 state_menu_ui.o
+ .debug_loc     0x00001be7      0x25e state_screensaver.o
+ .debug_loc     0x00001e45      0x5bc state_search.o
+ .debug_loc     0x00002401      0x3dc state_search_ui.o
+ .debug_loc     0x000027dd       0xc8 state_settings.o
+ .debug_loc     0x000028a5      0x557 state_settings_rssi.o
+ .debug_loc     0x00002dfc      0x19f timer.o
+ .debug_loc     0x00002f9b      0xb34 ui.o
+ .debug_loc     0x00003acf       0xc0 ui_menu.o
+ .debug_loc     0x00003b8f      0x29e ui_state_menu.o
+ .debug_loc     0x00003e2d       0x72 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
+ .debug_loc     0x00003e9f     0x1c87 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+ .debug_loc     0x00005b26      0x28d C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+ .debug_loc     0x00005db3       0xfe C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
+ .debug_loc     0x00005eb1      0x5fc C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x000064ad      0x3d6 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
+ .debug_loc     0x00006883     0xc240 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+ .debug_loc     0x00012ac3     0x3191 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+ .debug_loc     0x00015c54      0x1e4 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
+ .debug_loc     0x00015e38      0xcbb C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+ .debug_loc     0x00016af3      0x87f C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -2664,42 +2664,42 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0xfd0
+.debug_ranges   0x00000000      0xfa0
  *(.debug_ranges)
- .debug_ranges  0x00000000       0xa0 buttons.o
- .debug_ranges  0x000000a0       0x30 channels.o
- .debug_ranges  0x000000d0       0x10 pstr_helper.o
- .debug_ranges  0x000000e0       0x50 receiver.o
- .debug_ranges  0x00000130       0x28 receiver_spi.o
- .debug_ranges  0x00000158       0x38 settings_eeprom.o
- .debug_ranges  0x00000190       0x30 Sketch.o
- .debug_ranges  0x000001c0       0x60 state.o
- .debug_ranges  0x00000220       0x50 state_bandscan.o
- .debug_ranges  0x00000270       0x40 state_menu.o
- .debug_ranges  0x000002b0       0x20 state_menu_ui.o
- .debug_ranges  0x000002d0       0x38 state_screensaver.o
- .debug_ranges  0x00000308       0x90 state_search.o
- .debug_ranges  0x00000398       0x48 state_search_ui.o
- .debug_ranges  0x000003e0       0x20 state_settings.o
- .debug_ranges  0x00000400       0x50 state_settings_rssi.o
- .debug_ranges  0x00000450       0x20 timer.o
- .debug_ranges  0x00000470       0xa8 ui.o
- .debug_ranges  0x00000518       0x38 ui_menu.o
- .debug_ranges  0x00000550       0x20 ui_state_menu.o
- .debug_ranges  0x00000570       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
- .debug_ranges  0x00000590       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
- .debug_ranges  0x000005b0      0x120 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
- .debug_ranges  0x000006d0       0x38 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
- .debug_ranges  0x00000708       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
- .debug_ranges  0x00000728       0x28 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
- .debug_ranges  0x00000750       0x38 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
- .debug_ranges  0x00000788      0x4c0 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
- .debug_ranges  0x00000c48      0x1b8 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
- .debug_ranges  0x00000e00       0x28 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
- .debug_ranges  0x00000e28      0x100 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
- .debug_ranges  0x00000f28       0x10 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
- .debug_ranges  0x00000f38       0x10 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
- .debug_ranges  0x00000f48       0x88 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
+ .debug_ranges  0x00000000       0x70 buttons.o
+ .debug_ranges  0x00000070       0x30 channels.o
+ .debug_ranges  0x000000a0       0x10 pstr_helper.o
+ .debug_ranges  0x000000b0       0x50 receiver.o
+ .debug_ranges  0x00000100       0x28 receiver_spi.o
+ .debug_ranges  0x00000128       0x38 settings_eeprom.o
+ .debug_ranges  0x00000160       0x30 Sketch.o
+ .debug_ranges  0x00000190       0x60 state.o
+ .debug_ranges  0x000001f0       0x50 state_bandscan.o
+ .debug_ranges  0x00000240       0x40 state_menu.o
+ .debug_ranges  0x00000280       0x20 state_menu_ui.o
+ .debug_ranges  0x000002a0       0x38 state_screensaver.o
+ .debug_ranges  0x000002d8       0x90 state_search.o
+ .debug_ranges  0x00000368       0x48 state_search_ui.o
+ .debug_ranges  0x000003b0       0x20 state_settings.o
+ .debug_ranges  0x000003d0       0x50 state_settings_rssi.o
+ .debug_ranges  0x00000420       0x20 timer.o
+ .debug_ranges  0x00000440       0xa8 ui.o
+ .debug_ranges  0x000004e8       0x38 ui_menu.o
+ .debug_ranges  0x00000520       0x20 ui_state_menu.o
+ .debug_ranges  0x00000540       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000560       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(new.o)
+ .debug_ranges  0x00000580      0x120 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Print.o)
+ .debug_ranges  0x000006a0       0x38 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x000006d8       0x20 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_analog.o)
+ .debug_ranges  0x000006f8       0x28 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000720       0x38 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(WMath.o)
+ .debug_ranges  0x00000758      0x4c0 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_GFX.o)
+ .debug_ranges  0x00000c18      0x1b8 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Adafruit_SSD1306.o)
+ .debug_ranges  0x00000dd0       0x28 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(SPI.o)
+ .debug_ranges  0x00000df8      0x100 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(Wire.o)
+ .debug_ranges  0x00000ef8       0x10 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(abi.o)
+ .debug_ranges  0x00000f08       0x10 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x00000f18       0x88 C:\Data\Microchip\VRX\VRX_Diversity\VRX_Diversity\ArduinoCore\Release\libArduinoCore.a(twi.o)
 
 .debug_macro
  *(.debug_macro)

@@ -95,8 +95,8 @@ namespace Buttons {
       
 			if( state.pressed)
 			{
-				runChangeFuncs(button, PressType::SHORT);
 				digitalWrite(PIN_LED,HIGH);
+				runChangeFuncs(button, PressType::SHORT);
 				delay(200);
 				digitalWrite(PIN_LED,LOW);
 
@@ -108,11 +108,12 @@ namespace Buttons {
 
             if (!state.pressed) {
                 uint32_t duration = state.changeTime - prevChangeTime;
-
-                if (duration < 500)
-                    runChangeFuncs(button, PressType::SHORT);
-                else if (duration < 2000)
-                    runChangeFuncs(button, PressType::LONG);
+				if (duration < 2000 && duration > 500)
+					runChangeFuncs(button, PressType::LONG);
+                //if (duration < 500)
+                //    runChangeFuncs(button, PressType::SHORT);
+                //else if (duration < 2000)
+                //    runChangeFuncs(button, PressType::LONG);
             }
         }
 
