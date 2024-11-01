@@ -102,7 +102,7 @@ void StateMachine::ScreensaverStateHandler::onButtonChange(
 void StateMachine::ScreensaverStateHandler::onInitialDraw() {
     Ui::clear();
 
-    if (showLogo) {
+    if (1==2 && showLogo) {
         Ui::display.drawBitmap(
             0,
             0,

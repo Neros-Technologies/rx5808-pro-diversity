@@ -102,7 +102,7 @@ SOFTWARE.
 //     5584 MHz
 //     5621 MHz
 // Local laws may prohibit the use of these frequencies so use at your own risk!
-#define USE_LBAND
+//#define USE_LBAND
 
 // === Pins ====================================================================
 
@@ -114,12 +114,12 @@ SOFTWARE.
 #define PIN_BUTTON_DOWN 4
 #define PIN_BUTTON_SAVE 5
 
-#define PIN_LED 13
+#define PIN_LED 16//13
 #define PIN_BUZZER 6 // Must be an active buzzer, not passive.
 
-#define PIN_SPI_DATA 10
-#define PIN_SPI_SLAVE_SELECT 11
-#define PIN_SPI_CLOCK 12
+#define PIN_SPI_DATA 11 //10
+#define PIN_SPI_SLAVE_SELECT 12//11
+#define PIN_SPI_CLOCK 13 // 12
 
 #define PIN_RSSI_A A6
 #define PIN_LED_A A0
@@ -186,11 +186,11 @@ SOFTWARE.
 // === RSSI ====================================================================
 
 // RSSI default raw range.
-#define RSSI_MIN_VAL 90
-#define RSSI_MAX_VAL 220
+#define RSSI_MIN_VAL 40
+#define RSSI_MAX_VAL 150
 
 // 75% threshold, when channel is printed in spectrum.
-#define RSSI_SEEK_FOUND 75
+#define RSSI_SEEK_FOUND 60
 
 // 80% under max value for RSSI.
 #define RSSI_SEEK_TRESHOLD 80
@@ -205,7 +205,7 @@ SOFTWARE.
 // Shorter values will make it more reactive, but may lead to double trigger.
 #define BUTTON_DEBOUNCE_DELAY 100
 
-#define SCREENSAVER_TIMEOUT 30 // Seconds to wait before entering screensaver
+#define SCREENSAVER_TIMEOUT 3000 // Seconds to wait before entering screensaver
 #define SCREENSAVER_DISPLAY_CYCLE 3 // Seconds between switching logo/channel
 
 // Time needed to hold mode to get to menu

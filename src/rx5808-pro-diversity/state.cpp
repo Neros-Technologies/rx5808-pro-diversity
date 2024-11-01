@@ -15,9 +15,9 @@
 #include "timer.h"
 
 
-void *operator new(size_t size, void *ptr){
-  return ptr;
-}
+// void *operator new(size_t size, void *ptr){
+//   return ptr;
+// }
 
 #define MAX(a, b) (a > b ? a : b)
 #define STATE_BUFFER_SIZE \
@@ -75,34 +75,71 @@ namespace StateMachine {
 
         lastState = currentState;
         currentState = newState;
-        currentHandler = getStateHandler(newState);
+        // currentHandler = getStateHandler(newState);
+        switch (newState){
+            case State::SEARCH:
+                currentHandler = new  SearchStateHandler();
+                break;
+            case State::SCREENSAVER:
+                currentHandler = new  ScreensaverStateHandler();
+                break;
+            case State::BANDSCAN:
+                currentHandler = new BandScanStateHandler();
+                break;
+            case State::MENU:
+                currentHandler = new  MenuStateHandler();
+                break;
+            case State::SETTINGS:
+                currentHandler = new   SettingsStateHandler();
+                break;
+            case State::SETTINGS_RSSI:
+                currentHandler = new   SettingsRssiStateHandler();
+                break;
+            default:
+                currentHandler = nullptr;
+                break;
+        }
 
         if (currentHandler != nullptr) {
             currentHandler->onEnter();
             currentHandler->onInitialDraw();
         }
     }
+    // void switchState(State newState) {
+    //     if (currentHandler != nullptr) {
+    //         currentHandler->onExit();
+    //     }
 
-    static StateHandler *getStateHandler(State state) {
-        #define STATE_FACTORY(s, c) \
-            case s: \
-                return new (&stateBuffer) c(); \
-                break;
+    //     lastState = currentState;
+    //     currentState = newState;
+    //     currentHandler = getStateHandler(newState);
 
-        switch (state) {
-            STATE_FACTORY(State::SEARCH, SearchStateHandler);
-            STATE_FACTORY(State::SCREENSAVER, ScreensaverStateHandler);
-            STATE_FACTORY(State::BANDSCAN, BandScanStateHandler);
-            STATE_FACTORY(State::MENU, MenuStateHandler);
-            STATE_FACTORY(State::SETTINGS, SettingsStateHandler);
-            STATE_FACTORY(State::SETTINGS_RSSI, SettingsRssiStateHandler);
+    //     if (currentHandler != nullptr) {
+    //         currentHandler->onEnter();
+    //         currentHandler->onInitialDraw();
+    //     }
+    // }
 
-            default:
-                return nullptr;
-        }
+    // static StateHandler *getStateHandler(State state) {
+    //     #define STATE_FACTORY(s, c) \
+    //         case s: \
+    //             return new (&stateBuffer) c(); \
+    //             break;
 
-        #undef STATE_FACTORY
-    }
+    //     switch (state) {
+    //         STATE_FACTORY(State::SEARCH, SearchStateHandler);
+    //         STATE_FACTORY(State::SCREENSAVER, ScreensaverStateHandler);
+    //         STATE_FACTORY(State::BANDSCAN, BandScanStateHandler);
+    //         STATE_FACTORY(State::MENU, MenuStateHandler);
+    //         STATE_FACTORY(State::SETTINGS, SettingsStateHandler);
+    //         STATE_FACTORY(State::SETTINGS_RSSI, SettingsRssiStateHandler);
+
+    //         default:
+    //             return nullptr;
+    //     }
+
+    //     #undef STATE_FACTORY
+    // }
 
     static void onButtonChange(Button button, Buttons::PressType pressType) {
         if (currentHandler != nullptr) {

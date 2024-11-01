@@ -89,29 +89,37 @@ namespace Buttons {
 
         state.lastReading = reading;
 
-        if (
-            reading != state.pressed &&
-            (millis() - state.lastDebounceTime) >= BUTTON_DEBOUNCE_DELAY
+        if (reading != state.pressed &&     (millis() - state.lastDebounceTime) >= BUTTON_DEBOUNCE_DELAY
         ) {
             state.pressed = reading;
+      
+			if( 1 == 2 && state.pressed)
+			{
+				digitalWrite(PIN_LED,HIGH);
+				runChangeFuncs(button, PressType::SHORT);
+				delay(200);
+				digitalWrite(PIN_LED,LOW);
 
+			}
+      
             uint32_t prevChangeTime = state.changeTime;
             state.changeTime = millis();
             lastChangeTime = state.changeTime;
 
             if (!state.pressed) {
                 uint32_t duration = state.changeTime - prevChangeTime;
-
+				    if (1 == 2 && duration < 2000 && duration > 500)
+				      runChangeFuncs(button, PressType::LONG);
                 if (duration < 500)
-                    runChangeFuncs(button, PressType::SHORT);
+                   runChangeFuncs(button, PressType::SHORT);
                 else if (duration < 2000)
-                    runChangeFuncs(button, PressType::LONG);
+                   runChangeFuncs(button, PressType::LONG);
             }
         }
 
         if (state.pressed) {
             uint32_t duration = millis() - state.changeTime;
-
+		//digitalWrite(PIN_LED,LOW);
             if (duration >= 2000)
                 runChangeFuncs(button, PressType::HOLDING);
         }

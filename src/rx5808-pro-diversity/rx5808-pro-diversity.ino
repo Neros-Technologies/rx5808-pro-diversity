@@ -1,3 +1,10 @@
+/*Begining of Auto generated code by Atmel studio */
+//#define F_CPU 16000000UL
+//#include <Arduino.h>
+//#define F_CPU 16000000UL
+
+/*End of auto generated code by Atmel studio */
+
 /*
  * SPI driver based on fs_skyrf_58g-main.c Written by Simon Chambers
  * TVOUT by Myles Metzel
@@ -32,7 +39,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-
+// #include "SPI.h"
 #include "settings.h"
 #include "settings_internal.h"
 #include "settings_eeprom.h"
@@ -44,6 +51,12 @@ SOFTWARE.
 #include "state.h"
 
 #include "ui.h"
+//Beginning of Auto generated function prototypes by Atmel Studio
+void setupPins();
+void setupSettings();
+//End of Auto generated function prototypes by Atmel Studio
+
+
 
 
 static void globalMenuButtonHandler(
@@ -54,6 +67,7 @@ static void globalMenuButtonHandler(
 
 void setup()
 {
+
     setupPins();
 
     // Enable buzzer and LED for duration of setup process.
@@ -74,6 +88,9 @@ void setup()
     #ifdef USE_SERIAL_OUT
         Serial.begin(250000);
     #endif
+	
+  //Serial.begin(250000);
+
 
     // Setup complete.
     digitalWrite(PIN_LED, LOW);
@@ -86,6 +103,7 @@ void setup()
 }
 
 void setupPins() {
+    delay(1000); // Delay to allow LCD to boot.
     pinMode(PIN_LED, OUTPUT);
     pinMode(PIN_BUZZER, OUTPUT);
     pinMode(PIN_BUTTON_UP, INPUT_PULLUP);
@@ -114,16 +132,22 @@ void setupPins() {
 
 void setupSettings() {
     EepromSettings.load();
+    EepromSettings.startChannel = 4 * 8; // R1 5658 // TODO: force R1 on startup.
     Receiver::setChannel(EepromSettings.startChannel);
 }
 
 
+
 void loop() {
+
+
     Receiver::update();
     Buttons::update();
+
     StateMachine::update();
     Ui::update();
     EepromSettings.update();
+
 
     if (
         StateMachine::currentState != StateMachine::State::SCREENSAVER
